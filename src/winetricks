@@ -13929,6 +13929,64 @@ load_corefonts()
 
 #----------------------------------------------------------------
 
+w_metadata registernativefonts fonts \
+    title="Register native fonts"
+
+load_registernativefonts()
+{
+    # Fonts have to be placed in C:\Windows\Fonts
+
+    w_register_font arial.ttf "Arial"
+    w_register_font arialbd.ttf "Arial Bold"
+    w_register_font arialbi.ttf "Arial Bold Italic"
+    w_register_font ariali.ttf "Arial Italic"
+    w_register_font ariblk.ttf "Arial Black"
+
+    w_register_font malgun.ttf "Malgun Gothic"
+    w_register_font malgunbd.ttf "Malgun Gothic Bold"
+    w_register_font malgunsl.ttf "Malgun Gothic Semilight"
+
+    w_register_font msgothic.ttc "MS Gothic"
+    w_register_font msgothic.ttc "MS UI Gothic"
+    w_register_font msgothic.ttc "MS PGothic"
+
+    w_register_font msjh.ttc "Microsoft JhengHei"
+    w_register_font msjh.ttc "Microsoft JhengHei UI"
+    w_register_font msjhbd.ttc "Microsoft JhengHei Bold"
+    w_register_font msjhbd.ttc "Microsoft JhengHei UI Bold"
+    w_register_font msjhbl.ttc "Microsoft JhengHei Light"
+    w_register_font msjhbl.ttc "Microsoft JhengHei UI Light"
+
+    w_register_font msyh.ttc "Microsoft YaHei"
+    w_register_font msyh.ttc "Microsoft YaHei UI"
+    w_register_font msyhbd.ttc "Microsoft YaHei Bold"
+    w_register_font msyhbd.ttc "Microsoft YaHei UI Bold"
+    w_register_font msyhl.ttc "Microsoft YaHei Light"
+    w_register_font msyhl.ttc "Microsoft YaHei UI Light"
+
+    w_register_font simsun.ttc "SimSun"
+    w_register_font simsun.ttc "NSimSun"
+    w_register_font simsunb.ttc "SimSun-ExtB"
+
+    w_register_font tahoma.ttf "Tahoma"
+    w_register_font tahomabd.ttf "Tahoma Bold"
+
+    w_register_font times.ttf "Times New Roman"
+    w_register_font timesbd.ttf "Times New Roman Bold"
+    w_register_font timesbi.ttf "Times New Roman Bold Italic"
+    w_register_font timesi.ttf "Times New Roman Italic"
+
+    w_register_font verdana.ttf "Verdana"
+    w_register_font verdanab.ttf "Verdana Bold"
+    w_register_font verdanai.ttf "Verdana Italic"
+    w_register_font verdanaz.ttf "Verdana Bold Italic"
+
+    w_register_font webdings.ttf "Webdings"
+    w_register_font wingding.ttf "Wingdings"
+}
+
+#----------------------------------------------------------------
+
 w_metadata droid fonts \
     title="Droid fonts" \
     publisher="Ascender Corporation" \
